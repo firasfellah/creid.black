@@ -14,11 +14,6 @@ body {
     max-width: 100%;
 }
 
-h3, p {
-    text-align: center;
-    text-align: middle;
-}
-
 h3 {    
     position: absolute;
     left: 54px;
@@ -126,11 +121,33 @@ h1 {
     color: rgba(253, 197, 145, 1);
 }
 
+#icon1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 200px;
+    top: 237px;
+}
+#icon2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 200px;
+    top: 292px;
+}
+#icon3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 200px;
+    top: 347px;
+}
+
 #line1 {
     position: absolute;
     width: 299px;
     height: 25px;
-    left: 229px;
+    left: 235px;
     top: 237px;
 
     font-family: Avenir;
@@ -138,21 +155,20 @@ h1 {
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    /* identical to box height */
 
     display: flex;
     align-items: center;
 
-    /* Text Gold */
 
     color: rgba(253, 197, 145, 1);
 }
+
 
 #line2 {
     position: absolute;
     width: 318px;
     height: 25px;
-    left: 229px;
+    left: 235px;
     top: 292px;
     
     font-family: Avenir;
@@ -160,13 +176,10 @@ h1 {
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    /* identical to box height */
     
     display: flex;
     align-items: center;
-    
-    /* Text Gold */
-    
+        
     color: rgba(253, 197, 145, 1); 
 }
 
@@ -174,7 +187,7 @@ h1 {
     position: absolute;
     width: 354px;
     height: 25px;
-    left: 229px;
+    left: 235px;
     top: 347px;
 
     font-family: Avenir;
@@ -360,4 +373,12 @@ h4 {
     height: 16px;
     left: 1185px;
     top: 25px;
+}
+
+#logo {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 18px;
+    top: 18px;
 }
