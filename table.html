@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CREID.Black</title>
+        <link href="https://fonts.googleapis.com/css?family=Avenir&display=swap" rel="stylesheet" />
+        <link href="./table.css" rel="stylesheet"/>
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js"></script>
+    </head>
+    <body id="background">
+        <div id="topnavbar">
+            <!--testing java-->
+          <img id="logo" src="./images/logowebsite.png" onclick="openNav()">
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a id="database" href="#">Database</a><img id="databaseicon" src="./images/Icon1.png">
+                <a id="myportfolio" href="#">My Portfolio</a><img id="myportfolioicon" src="./images/myportfolio.png">
+                <a id="manageaccount" href="#">Manage Account</a><img id="manageaccounticon" src="./images/manageaccount.png">
+                <a id="contactus" href="#">Contact Us</a><img id="contactusicon" src="./images/contactus.png">
+                <a id="signout" href="index.html">Sign Out</a><img id="signouticon" src="./images/signout.png">
+            </div>
+            <!--testing java-->
+
+
+        <h3>Central Real Estate Intelligence Database.</h3>
+            <p id="totalproperties">Properties: 30,234,102</p>
+            <p id="totaldata">Data: 350,123,670</p>                    
+            <p id="totalaccuracy">Accuracy: 88%</p>
+            <p id="totalvalue">Value: £7,205,750,930,000</p>
+            <img id="reddot" src="https://support.lasers.leica-geosystems.com/lino/l2-l2G/gb/Content/Resources/Images/led_blinksred.gif" style="width: 30px; height: 15px;"></div>
+          <div></div>
+          <input id="searchbar" type="text" placeholder="Search any address or postcode">
+          <span id="addfilter">+ Add Filter</span>
+        
+      <table id="table" style="width:100%">
+            <tr id="tablehead" style="height: 30px;">
+              <th></th>
+              <th>ID</th>
+              <th>Country</th>
+              <th>City</th>
+              <th>Postcode</th>
+              <th>Address</th>
+              <th>Type</th>
+              <th>Tenure</th>
+              <th>Beds</th>
+              <th>Baths</th>
+              <th>Receptions</th>
+              <th>Garden</th>
+              <th>Internal</th>
+              <th>External</th>
+              <th>Year Built</th>
+              <th>Condition</th>
+              <th>Last Sold</th>
+              <th>Sale Price</th>
+              <th>A.I Price</th>
+              <th>Accuracy</th>
+              <th>Valuation</th>
+            </tr>
+            <tr id="data" style="height: 30px;">
+              <th></th>
+              <td>CRD-120391</td>
+              <td>U.K</td>
+              <td>London</td>
+              <td>SW72QG</td>
+              <td>Penthouse E</td>
+              <td>Flat</td>
+              <td>L</td>
+              <td>3</td>
+              <td>4</td>
+              <td>2</td>
+              <td>N</td>
+              <td>1,558 sqft</td>
+              <td>450 sqft</td>
+              <td>1960</td>
+              <td>*****</td>
+              <td>2003</td>
+              <td>£350,440</td>
+              <td>£323,970</td>
+              <td>89%</td>
+              <td style="color: #29E288;">£2,139,500</td>
+            </tr>
+            <tr id="data" style="height: 30px;">
+              <th></th>
+              <td>CRD-120391</td>
+              <td>U.K</td>
+              <td>London</td>
+              <td>SW72QG</td>
+              <td>Penthouse E</td>
+              <td>Flat</td>
+              <td>L</td>
+              <td>3</td>
+              <td>4</td>
+              <td>2</td>
+              <td>N</td>
+              <td>1,558 sqft</td>
+              <td>450 sqft</td>
+              <td>1960</td>
+              <td>*****</td>
+              <td>2003</td>
+              <td>£350,440</td>
+              <td>£323,970</td>
+              <td>89%</td>
+              <td style="color: #29E288;">£2,139,500</td>
+            </tr>
+
+            <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+              <tr id="data" style="height: 30px;">
+                <th></th>
+                <td>CRD-120391</td>
+                <td>U.K</td>
+                <td>London</td>
+                <td>SW72QG</td>
+                <td>Penthouse E</td>
+                <td>Flat</td>
+                <td>L</td>
+                <td>3</td>
+                <td>4</td>
+                <td>2</td>
+                <td>N</td>
+                <td>1,558 sqft</td>
+                <td>450 sqft</td>
+                <td>1960</td>
+                <td>*****</td>
+                <td>2003</td>
+                <td>£350,440</td>
+                <td>£323,970</td>
+                <td>89%</td>
+                <td style="color: #29E288;">£2,139,500</td>
+              </tr>
+          </table>
+    </body>
+</html>

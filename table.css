@@ -1,0 +1,365 @@
+#background {
+    background-color: #1E1E1E;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#topnavbar { 
+	box-shadow:0px 2px 10px rgba(0, 0, 0, 1);
+	background-color:rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 1);
+	opacity:1;
+	width: 99.99%;
+    height:57px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+
+}
+
+h3 {    
+    position: fixed;
+    left: 54px;
+    right: 1024px;
+    top: 15px;
+    bottom: 861px;   
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;   
+    color: #FFFFFF;
+}
+
+#totalproperties {
+    position: fixed;
+    height: 22px;
+    left: 575px;
+    top: 5px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    color: rgba(253, 197, 145, 1);
+}
+
+#totaldata {
+    position: fixed;
+    height: 22px;
+    left: 819px;
+    top: 5px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    color: rgba(253, 197, 145, 1);
+}
+
+#totalaccuracy {
+    position: fixed;
+    height: 22px;
+    left: 1032px;
+    top: 5px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    color: rgba(253, 197, 145, 1);
+}
+
+#totalvalue {
+    position: fixed;
+    height: 22px;
+    left: 1211px;
+    top: 5px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Text Gold */
+
+    color: rgba(253, 197, 145, 1);
+}
+
+#reddot {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    left: 1185px;
+    top: 25px;
+}
+
+#logo {
+    position: relative;
+    z-index: 3; /* Stay on top */
+    width: 25px;
+    height: 25px;
+    left: 18px;
+    top: 18px;
+    z-index: 5;
+}
+
+#searchbar { 
+	background-color:rgba(46.000001057982445, 47.0000009983778, 52.000000700354576, 1);
+	opacity:1;
+	border:2px solid rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 1);
+	width:354px;
+	height:30px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+    position: fixed;
+    left: 54px;
+    top: 87px;
+    bottom: 789px;
+    text-indent: 20px;
+    font-family: Avenir;
+    font-size: 14px;
+    color: white;
+
+}
+
+#addfilter { 
+    position: fixed;
+    left: 450px;
+    top: 105px;
+    bottom: 789px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #0FAFF3;
+}
+
+#table {
+    border-collapse: collapse;
+    position: absolute;
+    top: 165px;
+
+}
+
+#tablehead {
+    text-align: center;
+    text-align: middle;
+    border-bottom: .5px solid #5D5D5D;
+    font-family: Avenir;
+    color: rgba(253, 197, 145, 1);
+
+}
+
+#data {
+    text-align: center;
+    position: static;
+    text-align: middle;
+    border-bottom: .5px solid #5D5D5D;
+    font-family: Avenir;
+    color: white;
+}
+
+/* The side navigation menu */
+ 
+.sidenav {
+    position: absolute;
+    width: 0px;
+    height: 860px;
+    z-index: 2; /* Stay on top */
+    left: -3px;
+    top: 6px;
+    transition: 0.5s;
+    overflow-x: hidden;
+    padding-top: 60px; /* Place content 60px from the top */
+
+    background: #1E1E1E;
+    border: 3px solid #26272B;
+    box-sizing: border-box;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.5);
+    border-top-left-radius:5px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:5px;
+    border-bottom-right-radius:30px;
+  }
+  
+  /* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: rgba(253, 197, 145, 1);  
+  }
+  
+  /* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: -8px;
+    right: 10px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#database {
+    position: absolute;
+    width: 60px;
+    height: 19px;
+    left: 56px;
+    top: 121px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    color: rgba(253, 197, 145, 1);  
+}
+
+#myportfolio {
+    position: absolute;
+    width: 99px;
+    height: 19px;
+    left: 56px;
+    top: 187px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(253, 197, 145, 1);
+    
+}
+
+#manageaccount {
+    position: absolute;
+    width: 108px;
+    height: 19px;
+    left: 56px;
+    top: 251px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(253, 197, 145, 1);
+}
+
+#contactus {
+    position: absolute;
+    width: 71px;
+    height: 19px;
+    left: 55px;
+    top: 725px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: rgba(253, 197, 145, 1);
+}
+
+#signout {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 55px;
+    top: 790px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(253, 197, 145, 1);
+}
+
+#databaseicon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 126px;
+}
+
+#myportfolioicon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 191px;
+}
+
+#manageaccounticon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 256px;
+}
+
+#contactusicon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 730px;
+}
+
+#signouticon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 795px;
+}

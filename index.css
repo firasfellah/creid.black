@@ -2,8 +2,12 @@ body {
     font-family: Avenir;
 }
 
+#viewport {
+    width: device-width ;
+  }
+
 #background {
-    background-image: url("Background.png");
+    background-image: url("./images/Background.png");
     background-color: #1E1E1E;
     background-repeat: no-repeat;
     background-size:cover;
@@ -12,6 +16,22 @@ body {
     margin: 0 auto;
     max-height: 100%;
     max-width: 100%;
+}
+
+#reddot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1185px;
+    top: 25px;
+}
+
+#logo {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 18px;
+    top: 18px;
 }
 
 h3 {    
@@ -367,18 +387,21 @@ h4 {
     border-radius: 10px;
 }
 
-#reddot {
+#next {
     position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 1185px;
-    top: 25px;
+    width: 40px;
+    height: 30px;
+    left: 375px;
+    top: 825px;
+
+    background:#1E1F22 ;
+    border: 2px solid #1E1F22;
+    color: #ffc561;
+    border-radius: 10px;
+    font-family: Avenir;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 28px;
 }
 
-#logo {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 18px;
-    top: 18px;
-}
