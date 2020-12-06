@@ -19,7 +19,6 @@
     position: fixed;
     top: 0px;
     z-index: 1;
-
 }
 
 h3 {    
@@ -30,7 +29,7 @@ h3 {
     bottom: 861px;   
     font-family: Avenir;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 100;
     font-size: 18px;
     line-height: 25px;
     display: flex;
@@ -38,11 +37,122 @@ h3 {
     color: #FFFFFF;
 }
 
+#flagholder {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 716px;
+    top: 5px;
+
+    background: #1E1F22;
+    border: 2px solid #262626;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#ukflag {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 728px;
+    top: 17px;
+}
+
+#propholder {
+    position: absolute;
+    width: 229px;
+    height: 44px;
+    left: 775px;
+    top: 5px;
+    
+    background: #1E1F22;
+    border: 2px solid #262626;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#dataholder {
+    position: absolute;
+    width: 193px;
+    height: 44px;
+    left: 1020px;
+    top: 5px;
+    
+    background: #1E1F22;
+    border: 2px solid #262626;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;    
+}
+
+#accholder {
+    position: absolute;
+    width: 168px;
+    height: 44px;
+    left: 1227px;
+    top: 5px;
+    
+    background: #1E1F22;
+    border: 2px solid #262626;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;    
+}
+
+#valholder {
+    position: absolute;
+    width: 256px;
+    height: 44px;
+    left: 1410px;
+    top: 5px;
+    
+    background: #1E1F22;
+    border: 2px solid #262626;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;    
+}
+
+#propicon {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 790px;
+    top: 18px;
+
+}
+
+#dataicon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 1034px;
+    top: 20px;        
+}
+
+#accicon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1242px;
+    top: 17px;        
+}
+
+#valicon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1425px;
+    top: 18px;        
+}
+
 #totalproperties {
     position: fixed;
     height: 22px;
-    left: 575px;
-    top: 5px;
+    left: 820px;
+    top: 1px;
 
     font-family: Avenir;
     font-style: normal;
@@ -58,8 +168,8 @@ h3 {
 #totaldata {
     position: fixed;
     height: 22px;
-    left: 819px;
-    top: 5px;
+    left: 1060px;
+    top: 1px;
 
     font-family: Avenir;
     font-style: normal;
@@ -75,8 +185,8 @@ h3 {
 #totalaccuracy {
     position: fixed;
     height: 22px;
-    left: 1032px;
-    top: 5px;
+    left: 1272px;
+    top: 1px;
 
     font-family: Avenir;
     font-style: normal;
@@ -92,25 +202,154 @@ h3 {
 #totalvalue {
     position: fixed;
     height: 22px;
-    left: 1211px;
-    top: 5px;
+    left: 1455px;
+    top: 1px;
+
     font-family: Avenir;
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
     line-height: 22px;
+    
     display: flex;
     align-items: center;
     color: rgba(253, 197, 145, 1);
 }
+/* BREAK */
 
-#reddot {
+#navpropertiesV {
     position: fixed;
-    width: 16px;
-    height: 16px;
-    left: 1185px;
-    top: 25px;
+    height: 22px;
+    left: 904px;
+    top: 1px;
+    z-index: 2;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    color: white
 }
+
+#navdataV {
+    position: fixed;
+    height: 22px;
+    left: 1105px;
+    top: 1px;
+    z-index: 2;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+#navaccuracyV {
+    position: fixed;
+    height: 22px;
+    left: 1350px;
+    top: 1px;
+    z-index: 2;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+#navvalueV {
+    position: fixed;
+    height: 22px;
+    left: 1503px;
+    top: 1px;
+    z-index: 2;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+/* BREAK */
+
+
+#greendot {
+    position: fixed;
+    left: 366.5px;
+    top: 10.49px;
+}
+.blinking {
+    -webkit-animation: .75s blink ease infinite;
+    -moz-animation: .75s blink ease infinite;
+    -ms-animation: .75s blink ease infinite;
+    -o-animation: .75s blink ease infinite;
+    animation: .75s blink ease infinite;
+    
+  }
+  
+  @keyframes blink {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes blink {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-ms-keyframes blink {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-o-keyframes blink {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
 
 #logo {
     position: relative;
@@ -130,7 +369,7 @@ h3 {
     z-index: 2; 
     left: -3px;
     top: 6px;
-    transition: 0.5s;
+    transition: 1.5s;
     overflow-x: hidden;
     padding-top: 60px; 
     background: #1E1E1E;
@@ -141,7 +380,7 @@ h3 {
 	border-top-right-radius:30px;
 	border-bottom-left-radius:5px;
     border-bottom-right-radius:30px;
-  }
+}
   
   
   /* The navigation menu links */
@@ -151,7 +390,7 @@ h3 {
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 1s;
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -201,7 +440,6 @@ h3 {
     align-items: center;
     text-align: center;
     color: white
-    
 }
 
 #manageaccount {
@@ -296,7 +534,16 @@ h3 {
     top: 795px;
 }
 
-/*MIDDLE BOXES*/
+/* MIDDLE CONTENT */
+
+#content {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    left: 466px;
+    top: 141px;
+}
+/*
 #box {
     position: absolute;
     width: 300px;
@@ -457,7 +704,6 @@ h3 {
     text-align: right;
     color: #29E288;
 }
-/*BOX NUMBER 2*/
 
 #box2 {
     position: absolute;
@@ -473,7 +719,154 @@ h3 {
     border-radius: 30px;
 }
 
-/*BOX NUMBER 2*/
+#portfolio2 {
+    position: absolute;
+    width: 162px;
+    height: 33px;
+    left: 385px;
+    top: 0px;
+    font-family: Avenir;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(253, 197, 145, 1);
+}
+#properties2 {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    left: 385px;
+    top: 85px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: rgba(253, 197, 145, 1);
+}
+
+#propertiesV2 {
+    position: absolute;
+    width: 48px;
+    height: 30px;
+    left: 560px;
+    top: 85px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#data2 {
+    position: absolute;
+    width: 96px;
+    height: 30px;
+    left: 385px;
+    top: 130px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: rgba(253, 197, 145, 1);
+}
+
+#dataV2 {
+    position: absolute;
+    width: 59px;
+    height: 30px;
+    left: 560px;
+    top: 130px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#accuracy2 {
+    position: absolute;
+    width: 77px;
+    height: 30px;
+    left: 385px;
+    top: 175px;  
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;  
+    display: flex;
+    align-items: center;
+    color: rgba(253, 197, 145, 1);
+}
+
+#accuracyV2 {
+    position: absolute;
+    width: 38px;
+    height: 30px;
+    left: 570px;
+    top: 175px;  
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #FFFFFF;
+}
+
+#value2 {
+    position: absolute;
+    width: 47px;
+    height: 30px;
+    left: 385px;
+    top: 220px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: rgba(253, 197, 145, 1);
+}
+
+#valueV2 {
+    position: absolute;
+    width: 118px;
+    height: 30px;
+    left: 495px;
+    top: 220px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #29E288;
+}
+
 
 #box3 {
     position: absolute;
@@ -489,8 +882,6 @@ h3 {
     border-radius: 30px;    
 }
 
-/*BOX NUMBER 2*/
-
 #box4 {
     position: absolute;
     width: 300px;
@@ -504,3 +895,5 @@ h3 {
     box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.5);
     border-radius: 30px;    
 }
+
+*/

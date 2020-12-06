@@ -9,7 +9,6 @@
     </head>
     <body id="background">
         <div id="topnavbar">
-            <!--testing java-->
           <img id="logo" src="./images/logowebsite.png" onclick="openNav()">
             <div id="mySidenav" class="sidenav">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -19,15 +18,19 @@
                 <a id="contactus" href="#">Contact Us</a><img id="contactusicon" src="./images/contactus.png">
                 <a id="signout" href="index.html">Sign Out</a><img id="signouticon" src="./images/signout.png">
             </div>
-            <!--testing java-->
 
-
-        <h3>Central Real Estate Intelligence Database.</h3>
-            <p id="totalproperties">Properties: 30,234,102</p>
-            <p id="totaldata">Data: 350,123,670</p>                    
-            <p id="totalaccuracy">Accuracy: 88%</p>
-            <p id="totalvalue">Value: £7,205,750,930,000</p>
-            <img id="reddot" src="https://support.lasers.leica-geosystems.com/lino/l2-l2G/gb/Content/Resources/Images/led_blinksred.gif" style="width: 30px; height: 15px;"></div>
+          <h3>Central Real Estate Intelligence Database</h3>
+              <a id="flagholder"></a><img id="ukflag" src="./images/ukflag.png">
+              <a id="propholder"></a><img id="propicon" src="./images/propicon.png"><p id="totalproperties">Properties:</p><p id="navpropertiesV">30,300,750</p>
+              <a id="dataholder"></a><img id="dataicon" src="./images/dataicon.png"><p id="totaldata">Data:</p><p id="navdataV">350,123,670</p>                    
+              <a id="accholder"></a><img id="accicon" src="./images/accicon.png"><p id="totalaccuracy">Accuracy:</p><p id="navaccuracyV">90%</p>
+              <a id="valholder"></a><img id="valicon" src="./images/valicon.png"><p id="totalvalue">Value:</p><p id="navvalueV">£7,205,761,330,500</p>
+              <svg id="greendot" height="100" width="100" class="blinking">
+                  <circle cx="25" cy="25" r="3" fill="green" /></svg> 
+            <div></div>
+  
+              <!--CONTENT BELOW-->
+  
           <div></div>
           <input id="searchbar" type="text" placeholder="Search any address or postcode">
           <span id="addfilter">+ Add Filter</span>
